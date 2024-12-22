@@ -1,9 +1,9 @@
 {
-    "name": "Wasi Session Generator",
-    "description": "I'm Web Session Generator by Itxx Me Wasi",
+    "name": "Linah Session Generator",
+    "description": "I'm Web Session Generator by The Developer03",
     "logo": "",
-    "repository": "https://github.com/Giftedmaurice/giftedmdV2-session-generator",
-    "keywords": ["@Xcelsama"],
+    "repository": "https://github.com/pixelPusher03/Linah_pairing",
+    "keywords": ["@thedeveloper03"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
