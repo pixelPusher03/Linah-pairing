@@ -1,6 +1,6 @@
 const PastebinAPI = require('pastebin-js'),
 pastebin = new PastebinAPI('5f4ilKJVJG-0xbJTXesajw64LgSAAo-L')
-const {makeid} = require('./id');
+const {makeid} = require('./Linah');
 const express = require('express');
 const fs = require('fs');
 let router = express.Router()
@@ -11,7 +11,7 @@ const {
     delay,
     makeCacheableSignalKeyStore,
     Browsers
-} = require("@whiskeysockets/baileys");
+} = require("whiskeysockets/baileys");
 
 function removeFile(FilePath){
     if(!fs.existsSync(FilePath)) return false;
